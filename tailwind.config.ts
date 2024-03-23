@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'moveIn': '3s ease-in-out moveIn forwards',
+        'moveOut': '3s ease-in-out moveOut forwards'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -20,7 +24,7 @@ const config: Config = {
         "auLightBlue": "#DFE2F1"
       },
       screens: {
-        'lt': '1025px',
+        'lt': '1026px',
         'tb': '769px',
         'pn': '469px',
         'sm-pn': '376px',
