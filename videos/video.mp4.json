@@ -1,6 +1,6 @@
 {
   "status": "sourced",
-  "originalFilePath": "videos/video.mp4",
+  "originalFilePath": "https://github.com/nnoromiv/realCloudDevOpsExperts/blob/master/videos/video.mp4",
   "provider": "mux",
   "providerMetadata": {
     "mux": {
