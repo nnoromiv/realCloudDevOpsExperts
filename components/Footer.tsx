@@ -41,7 +41,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faXTwitter} size='2xl' className='text-white w-10 m-4' />
             <h2 className='font-bold text-white max-sm-pn:text-sm'>...</h2>
           </Link>
-          <Link href={"https://www.instagram.com/realclouddevopsexperts?igsh=MmVlMjlkMTBhMg%3D%3D&utm_source=qr"} target='_blank' className='flex items-center'>
+          <Link href={"https://www.instagram.com/realclouddevopsexperts"} target='_blank' className='flex items-center'>
             <FontAwesomeIcon icon={faInstagram} size='2xl' className='text-white w-10 m-4' />
             <h2 className='font-bold text-white max-sm-pn:text-sm'>realclouddevopsexperts</h2>
           </Link>

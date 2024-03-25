@@ -2,6 +2,7 @@ import React from 'react'
 import { aBeeZee, higuen, moKoTo } from '../styles/fonts'
 import Video from 'next-video'
 import myVideo  from '../videos/video.mp4'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -15,7 +16,9 @@ const Hero = () => {
                 <Video src={myVideo} autoPlay loop controls={false} debug={false}   muted className='w-[680px] h-[510px] max-lt:w-[512px] max-lt:h-[384px] max-tb:w-[381.6px] max-tb:h-[286px] max-sm-pn:w-[300px] max-sm-pn:h-[225px]' />
             </div>
         </div>
-        <button className={`btn btn-wide rounded-none mt-3 bg-white border-none ${aBeeZee.className} text-btnText animate-moveIn`}>LEARN MORE</button>
+        <Link href={"https://www.facebook.com/realclouddevops"} target='_blank'>
+          <button  className={`btn btn-wide rounded-none mt-3 bg-white border-none ${aBeeZee.className} text-btnText animate-moveIn`}>LEARN MORE</button>
+        </Link>
     </div>
   )
 }
