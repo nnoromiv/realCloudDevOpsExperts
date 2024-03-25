@@ -33,17 +33,17 @@ const Footer = () => {
           </Link>
         </div>
         <div className='flex flex-col'>
-          <Link href={""} target='_blank' className='flex items-center'>
+          <Link href={"https://www.facebook.com/realclouddevops"} target='_blank' className='flex items-center'>
             <FontAwesomeIcon icon={faFacebook} size='2xl' className='text-white w-10 m-4' />
-            <h2 className='font-bold text-white max-sm-pn:text-sm'>RealCloudOps</h2>
+            <h2 className='font-bold text-white max-sm-pn:text-sm'>realclouddevops</h2>
           </Link>
-          <Link href={""} target='_blank' className='flex items-center'>
+          <Link href={"/"} target='_blank' className='flex items-center'>
             <FontAwesomeIcon icon={faXTwitter} size='2xl' className='text-white w-10 m-4' />
-            <h2 className='font-bold text-white max-sm-pn:text-sm'>_realCloudOps</h2>
+            <h2 className='font-bold text-white max-sm-pn:text-sm'>...</h2>
           </Link>
-          <Link href={""} target='_blank' className='flex items-center'>
+          <Link href={"https://www.instagram.com/realclouddevopsexperts?igsh=MmVlMjlkMTBhMg%3D%3D&utm_source=qr"} target='_blank' className='flex items-center'>
             <FontAwesomeIcon icon={faInstagram} size='2xl' className='text-white w-10 m-4' />
-            <h2 className='font-bold text-white max-sm-pn:text-sm'>realCloudOps_</h2>
+            <h2 className='font-bold text-white max-sm-pn:text-sm'>realclouddevopsexperts</h2>
           </Link>
         </div>
         <div className='flex flex-col justify-center items-center mt-5'>
