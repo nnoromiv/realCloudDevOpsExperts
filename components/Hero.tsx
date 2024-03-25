@@ -17,7 +17,7 @@ const Hero = () => {
             </div>
         </div>
         <Link href={"https://www.facebook.com/realclouddevops"} target='_blank'>
-          <button  className={`btn btn-wide rounded-none mt-3 bg-white border-none ${aBeeZee.className} text-btnText animate-moveIn`}>LEARN MORE</button>
+          <button  className={`btn btn-wide rounded-none mt-3 hover:bg-white bg-white border-none ${aBeeZee.className} text-btnText animate-moveIn`}>LEARN MORE</button>
         </Link>
     </div>
   )
