@@ -2,7 +2,6 @@ import React from 'react'
 import { aBeeZee, higuen, moKoTo } from '../styles/fonts'
 import Video from 'next-video'
 import myVideo  from '../videos/video.mp4'
-import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
