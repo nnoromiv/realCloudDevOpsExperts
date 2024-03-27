@@ -1,7 +1,7 @@
 import React from 'react'
 import { aBeeZee, higuen, moKoTo } from '../styles/fonts'
 import Video from 'next-video'
-import myVideo  from '../videos/video.mp4'
+import myVideo  from '/videos/video.mp4'
 import Link from 'next/link'
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
         <div className={`mt-20 flex justify-between items-center max-tb:flex-col max-tb:mt-10`}>
             <h1 className={`text-7xl text-left text-white ${higuen.className} max-lt:text-5xl max-tb:text-3xl animate-moveIn`}> 4 Months Practical Intensive Training on Cloud Operations & DevOps Practices</h1>
             <div className={`mt-3 w-[680px] h-[510px] rounded-lg max-lt:w-[512px] max-lt:h-[384px] max-tb:w-[381.6px] max-tb:h-[286px] max-sm-pn:w-[300px] max-sm-pn:h-[225px] animate-moveOut`}>
-                <Video src={myVideo} autoPlay loop controls={false} debug={false}   muted className='w-[680px] h-[510px] max-lt:w-[512px] max-lt:h-[384px] max-tb:w-[381.6px] max-tb:h-[286px] max-sm-pn:w-[300px] max-sm-pn:h-[225px]' />
+                <Video src={myVideo} autoPlay loop controls muted  className='w-[680px] h-[510px] max-lt:w-[512px] max-lt:h-[384px] max-tb:w-[381.6px] max-tb:h-[286px] max-sm-pn:w-[300px] max-sm-pn:h-[225px]' />
             </div>
         </div>
         <Link href={"https://www.facebook.com/realclouddevops"} target='_blank'>
