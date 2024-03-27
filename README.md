@@ -2,6 +2,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### Setup `.env`
+
+-Visit [Mux](https://mux.com/) to generate yours for video rendering
+
+MUX_TOKEN_ID=''
+MUX_TOKEN_SECRET=''
+
 First, run the development server:
 
 ```bash
