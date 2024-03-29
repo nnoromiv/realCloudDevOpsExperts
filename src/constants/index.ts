@@ -1,5 +1,3 @@
-import { HERO, HERO_2 } from "../assets/assets"
-
 const BENEFITS = [
     {
         title: 'Benefits',
@@ -18,7 +16,7 @@ const BENEFITS = [
 const TRAINING = [
     {
         name: 'Training Course Outline',
-        image: HERO,
+        image: '../images/hero.png',
         title: 'WINDOWS SERVER ADMINISTRATION - MONTH 1',
         features: [
             'Introduction to Windows Server',
@@ -34,7 +32,7 @@ const TRAINING = [
     },
     {
         name: 'Linux Server Administration Month 2',
-        image: HERO_2,
+        image: '../images/hero2.png',
         title: 'Linux Server Administration Month 2',
         features: [
             'Installation of Linux Operating System',
@@ -49,7 +47,7 @@ const TRAINING = [
     },
     {
         name: 'Cloud Operations & Administration Month 3',
-        image: HERO_2,
+        image: '../images/hero2.png',
         title: 'AWS CLOUD SERVICES - MoNTH 3',
         features: [
             'Introduction to cloud computing {IAM, Global, Autoscaling, Load balancing}',
@@ -63,7 +61,7 @@ const TRAINING = [
     },
     {
         name: 'DevOps Practices & Tools Month 4',
-        image: HERO,
+        image: '../images/hero.png',
         title: 'DEVOPS TOOLS - MONTH 4',
         features: [
             'Introduction to DevOps { Benefits of DevOps, SCM, SDLC, Git, GitHub, IDE }',

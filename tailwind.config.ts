@@ -2,12 +2,15 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
+      fontFamily: {
+        higuen: ["Higuen"],
+        moKoto: ["MoKoto"],
+        aBeeZee: ["aBeeZee"]
+      },
       animation: {
         'moveIn': '3s ease-in-out moveIn forwards',
         'moveOut': '3s ease-in-out moveOut forwards'
